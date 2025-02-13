@@ -1,0 +1,132 @@
+/* General page styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main container styling */
+.container {
+  max-width: 900px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #1a2a6c;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Seats left styling */
+.seats {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b21f1f;
+  margin-top: 10px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 2px solid #e0e0e0;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+}
+
+th {
+  background: #1a2a6c;
+  color: white;
+  font-size: 16px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+/* Unique button styles */
+.btn-primary {
+  background: #fdbb2d;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background: #e09e1a;
+}
+
+.btn-success {
+  background: #27ae60;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #219150;
+}
+
+.btn-danger {
+  background: #c0392b;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #a93226;
+}
+
+.btn-warning {
+  background: #f39c12;
+  color: white;
+}
+
+.btn-warning:hover {
+  background: #d68910;
+}
